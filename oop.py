@@ -6,5 +6,12 @@ class Banana(Fruit):
     def intro(self):
         print("Hello from Banana Class, I inherited class Fruit")
 
-fruit = Banana()
-fruit.intro()
+class Mango(Fruit):
+        def intro(self):
+            print("Hello from Mango Class, I inherited class Fruit")
+
+banana = Banana()
+banana.intro()
+
+mango = Mango()
+mango.intro()
